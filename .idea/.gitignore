@@ -1,0 +1,40 @@
+# 默认忽略的文件
+/shelf/
+/workspace.xml
+# 基于编辑器的 HTTP 客户端请求
+/httpRequests/
+# 已忽略包含查询文件的默认文件夹
+/queries/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.pytest_cache/
+
+# ---------- 本地数据与缓存 ----------
+# 你自己造的测试数据，按需要决定是否入库
+notes.json
+questions.json
+*.db
+*.sqlite
+*.sqlite3
+cache/
+*.log
+
+# 向量缓存（如果你把向量存成本地文件）
+vectors/
+*.npy
+*.pkl
+
+# ---------- 编辑器与系统 ----------
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
