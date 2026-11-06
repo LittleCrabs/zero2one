@@ -1,0 +1,22 @@
+[
+
+  {
+  "q": "我在北京，能办江西电信单宽200M600元/年吗？",
+  "as": "customer",
+  "kind": "chunk",
+  "expect": "禁发",
+  "gold_chunk_id": "product:1675",
+  "note": "测试纯 RAG 对禁发地区的过滤能力，预期纯语义检索会直接忽略‘禁发’逻辑，命中该商品",
+  "confidence": "high"
+},
+
+  {
+    "q": "宽带怎么装",
+    "as": "customer",
+    "kind": "chunk",
+    "expect": "宽带",
+    "gold_chunk_id": "kb:md-客户常见问题:39",
+    "note": "标题「有没有宽带套餐？宽带怎么装？怎么办宽带？」完全对应，正文说明下单后运营商联系上门安装。",
+    "confidence": "high"
+  }
+]
